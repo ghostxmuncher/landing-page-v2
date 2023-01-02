@@ -146,13 +146,15 @@ img {
 }
 
 .blue-box2 {
-    width: 30%;
-    height: 35%;
+    min-width: 30%;
+    min-height: 35%;
     background-color: #3882f6;
     border-radius: 5px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 15px;
+    gap: 15px;
 }
 
 .left-info {
@@ -165,4 +167,16 @@ img {
     border: 2px solid #e5e7eb;
     padding: 5px 22px;
     border-radius: 5px;
+}
+
+.footer {
+    height: 75px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-p {
+    color: #e5e7eb;
+    font-size: 12px;
 }
