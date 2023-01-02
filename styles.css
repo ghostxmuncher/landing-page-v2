@@ -56,6 +56,7 @@ ul {
     display: flex;
     flex-direction: row;
     gap: 100px;
+    width: 100%;
     justify-content: center;
     margin: 50px;
 }
@@ -78,5 +79,36 @@ img {
 .p-first {
     font-size: 18px;
     color: #e5e7eb;
-    
+}
+
+.Header2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.row-of-blue-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 100px;
+}
+.blue-box-msg {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.blue-box {
+    width: 150px;
+    height: 150px;
+    border: solid #3882f6;
+    border-radius: 10px;
+}
+.p-subtext {
+    color: grey;
+    font-weight: 500;
 }
